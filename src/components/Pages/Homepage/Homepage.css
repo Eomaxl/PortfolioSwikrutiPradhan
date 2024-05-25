@@ -1,0 +1,45 @@
+
+.pages {
+    display:flex;
+    flex-direction: column;
+    justify-items: left;
+
+}
+
+.row {
+    margin-top: 4px;
+}
+
+.row span{
+    padding-left: 4px;
+}
+
+/* CSS file */
+.link-no-underline {
+    text-decoration: none;
+  }
+  
+  /* Or if you want to remove underlines from all Link components globally */
+  a {
+    text-decoration: none;
+  }
+  
+  /* If you're using CSS modules, you may have a syntax like this */
+  .linkNoUnderline {
+    text-decoration: none;
+  }
+  /* Remove blue color and use the inherited color */
+.link-no-color {
+    color: inherit;
+  }
+  
+  /* Or set to a specific color, like black */
+  .link-black {
+    color: black;
+  }
+  
+  /* Globally target all anchor tags */
+  a {
+    color: inherit; /* or any other color */
+  }
+  
